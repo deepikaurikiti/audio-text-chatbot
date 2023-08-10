@@ -3,7 +3,7 @@ import openai
 import csv
 import speech_recognition as sr
 
-openai.api_key = "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"
+openai.api_key = "api_key"
 
 app = Flask(__name__)
 app.static_folder = 'static'

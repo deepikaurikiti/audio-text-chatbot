@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import openai
 import csv
 
-openai.api_key = "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"
+openai.api_key = "api_key"
 
 app = Flask(__name__)
 app.static_folder = 'static'

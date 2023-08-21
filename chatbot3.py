@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.static_folder = 'static'
 
 # Define the path to your CSV file
-csv_file_path = r'C:\Users\deepi\Desktop\Working\StateNames.csv'
+csv_file_path = r'path'
 
 def search_csv_data(keyword):
     # Open the CSV file
